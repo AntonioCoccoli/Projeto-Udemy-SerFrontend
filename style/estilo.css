@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.banner{
+    background-image: url(../ProjetoCSS-inicio/imagens/bg-3.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: right center;
+}
+
+.banner-content{
+    text-align: center;
+    padding-top: 235px;
+    color: #ffffff;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 85px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.banner-content p{
+    font-size: 25px;
+    background-color: rgba(00, 00, 00, 0.7);
+    padding: 9px;
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+}
