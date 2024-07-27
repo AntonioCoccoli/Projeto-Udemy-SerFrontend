@@ -9,6 +9,7 @@ body{
     height: 800px;
     background-size: cover;
     background-position: right center;
+    padding-top: 1px;
 }
 
 .banner-content{
@@ -29,4 +30,60 @@ body{
     padding: 9px;
     display: inline-block;
     border-bottom: 2px solid #ffffff;
+}
+
+.banner ul{
+    text-align: right;
+    padding-top: 25px;
+    margin-right: 70px;
+}
+
+.banner li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.banner a{
+    background-color: rgba(00, 00, 00, 0.7);
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #ffffff;
+}
+
+.banner a:hover{
+    border-radius: 0 10px;
+    text-decoration: underline;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+section{
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+section header h2{
+    background-color: #e9e5e5;
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
+    margin-top: 0;
+}
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: #807c7c;
+    margin-bottom: 0;
+    padding: 8px;
+    margin-top: 0;
 }
